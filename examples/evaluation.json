@@ -1,0 +1,71 @@
+{
+  "data_origin": "hand-authored synthetic fixtures",
+  "network_calls": 0,
+  "classification": {
+    "total": 8,
+    "set_coverage_n": 5,
+    "set_covered": 3,
+    "set_coverage": 0.6,
+    "auto_n": 2,
+    "auto_error_n": 1,
+    "auto_error_rate": 0.5,
+    "review_n": 6,
+    "backlog_n": 3
+  },
+  "manual_mode": {
+    "auto_n": 0,
+    "review_n": 8
+  },
+  "nps": {
+    "raw_before": -4.0,
+    "raw_after": 44.0,
+    "raw_delta": 48.0,
+    "within": 0.0,
+    "mix": 48.0,
+    "standardized_delta": 0.0,
+    "missing_stratum_status": "HOLD"
+  },
+  "experiment": {
+    "status": "READOUT_READY",
+    "assignment_counts": {
+      "C": 200,
+      "T": 200
+    },
+    "effect": {
+      "raw": {
+        "control_mean": 57.95,
+        "treatment_mean": 53.943000000000005,
+        "delta_T_minus_C": -4.006999999999998,
+        "variance_of_estimator": 2.025519854271357,
+        "standard_error": 1.4232075935264528,
+        "normal_approx_95_ci": [
+          -6.796486883311845,
+          -1.2175131166881505
+        ],
+        "warning": null
+      },
+      "cuped": {
+        "control_mean": 57.52649902750764,
+        "treatment_mean": 53.6525993331481,
+        "delta_T_minus_C": -3.8738996943595367,
+        "variance_of_estimator": 0.040554537825127884,
+        "standard_error": 0.2013815727049719,
+        "normal_approx_95_ci": [
+          -4.268607576861282,
+          -3.479191811857792
+        ],
+        "warning": null
+      },
+      "estimated_variance_ratio": 0.02002179230166896
+    },
+    "early_status": "NOT_READY",
+    "missing_outcome_reasons": [
+      "MISSING_OUTCOMES"
+    ],
+    "lost_exposures_reasons": [
+      "MISSING_ASSIGNMENTS",
+      "SAMPLE_RATIO_MISMATCH",
+      "ERROR_GUARDRAIL"
+    ]
+  }
+}
